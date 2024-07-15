@@ -1,0 +1,53 @@
+@font-face { font-family: colortube; src: url('ColorTube.otf'); }
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, yellow 0%, yellow 25%, yellow 51%, #ff357f 100%);
+    -webkit-animation: AnimateBG 15s ease infinite;
+            animation: AnimateBG 15s ease infinite;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  #clock {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'colortube', Courier, monospace;
+    color: white;
+    background-color: #ff357f; 
+    padding: 40px;
+    border-bottom-left-radius: .5em;
+    border-top-right-radius: .5em;
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

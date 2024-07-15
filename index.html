@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  
+
 <head>
-  <title>Digital Clock</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    #clock {
-      font-size: 48px;
-      font-weight: bold;
-      margin: 20px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gradient-bg-test</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1 id="clock">00:00:00</h1>
+  <div class="bg">
+    <h1 id="clock">00:00:00</h1>
   <script>
     function updateClock() {
       const now = new Date();
@@ -27,5 +23,7 @@
     updateClock();
     setInterval(updateClock, 1000);
   </script>
+  </div>
 </body>
+
 </html>
