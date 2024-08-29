@@ -4,4 +4,6 @@
 
 Today I learned how to make time change actively in JS. You can downlaod the documents into a folder and have a look!
 
+Check out a live demo of the latest version [here](https://itskme.github.io/js-active-clock/).
+
 
